@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cus_1001",
+    "name": "Alex Rivera",
+    "email": "alex.rivera@example.com",
+    "plan": "Business",
+    "account_status": "active",
+    "metadata_json": {
+      "mrr": 249,
+      "region": "US",
+      "open_invoices": 1
+    }
+  },
+  {
+    "id": "cus_1002",
+    "name": "Maya Chen",
+    "email": "maya.chen@example.com",
+    "plan": "Enterprise",
+    "account_status": "under_review",
+    "metadata_json": {
+      "mrr": 2100,
+      "region": "EU",
+      "open_invoices": 0
+    }
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Duplicate billing review policy",
+    "intents": ["billing_dispute"],
+    "content": "Verify payment processor records, invoice ids, billing cycle, and account credits before refund action."
+  },
+  {
+    "title": "Password reset and MFA policy",
+    "intents": ["password_reset", "security"],
+    "content": "Send a secure reset link, verify MFA status, and never ask for a password in chat."
+  },
+  {
+    "title": "Checkout troubleshooting",
+    "intents": ["technical_issue"],
+    "content": "Collect screenshot, browser, device, timestamp, account id, and cart id before routing to product support."
+  },
+  {
+    "title": "Cancellation retention policy",
+    "intents": ["cancel_subscription"],
+    "content": "Confirm account owner, billing impact, data export needs, and route enterprise cancellations to human review."
+  },
+  {
+    "title": "Shipping delay support",
+    "intents": ["shipping_delay"],
+    "content": "Check tracking status, carrier events, address changes, and SLA window before offering replacement."
+  }
+]
